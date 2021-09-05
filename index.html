@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="intro" id="intro">
+        <div class="intro-bg"></div>
+        <h3></h3>
+        <button>Skip Intro</button>
+    </div>
+
+    <!-- Video Background-->
+    <video  class="current-video" id="currentVideo" autoplay loop muted>
+        <source  type="video/mp4">
+    </video>
+
+    <div class="breath-container" id="breathContainer">
+        <div class="breath-points">
+          <span class="start"></span>
+          <span class="hold"></span>
+          <span class="out"></span>
+        </div>
+        <div class="pointer" id="pointer"></div>
+    </div>
+
+    <button class="play-button" id="playButton">
+        <svg  class="track-outline" width="56" height="56"  viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="226.5" cy="226.5" r="216.5" stroke="#7B4DFF" stroke-width="20"/>
+        </svg>
+    </button>
+
+
+    <button class="btn-show-list" id="showList"></button>
+
+    <div class="play-list" id="playList">   
+    </div>
+
+
+    <script src="app.js"></script>
+   
+</body>
+</html>
