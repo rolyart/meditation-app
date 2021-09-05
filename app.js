@@ -77,7 +77,7 @@ function onSelectItem(item){
 
 function getData(){
     var http = new XMLHttpRequest();
-    var url = "http://apps.rolyart.ro/api/meditation-app/data.json";
+    var url = "https://apps.rolyart.ro/api/meditation-app/data.json";
     http.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             const files = JSON.parse(this.responseText);
