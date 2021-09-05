@@ -415,7 +415,6 @@ body {
   border-radius: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .play-button::after {
@@ -453,7 +452,6 @@ body {
   height: 56px;
   -webkit-animation: playing .6s ease;
           animation: playing .6s ease;
-  background-color: transparent;
 }
 
 .play-button.playing::after {
@@ -472,7 +470,6 @@ body {
 
 .play-button.playing svg {
   opacity: 1;
-  border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .play-button.loading::after {

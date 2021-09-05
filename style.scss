@@ -321,7 +321,6 @@ body{
 		transform: rotate(-90deg);
 		border-radius:50%;
 		box-sizing: border-box;
-		background-color: rgba(white, .3);
 	}
     &::after{
             position:absolute;
@@ -355,7 +354,7 @@ body{
         width:56px;
         height:56px;
         animation:playing .6s ease;
-		background-color: transparent;
+
 	
         &::after{
             width:18px;
@@ -371,7 +370,6 @@ body{
 		}
 		svg{
 			opacity: 1;
-			border:2px solid rgba(white, .5);
 		}
     }
 	&.loading{
